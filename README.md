@@ -1,4 +1,4 @@
-# 📚 Système de Gestion de Bibliothèque — CS27
+# Système de Gestion de Bibliothèque — CS27
 
 **Burkina Institute of Technology | Département Informatique**  
 **Cours : CS27 – Le Modèle Relationnel & Bases de Données**  
@@ -6,13 +6,13 @@
 
 ---
 
-## 📋 Description du projet
+## Description du projet
 
 Ce projet implémente un **système de gestion de bibliothèque** complet en MySQL. Il couvre la conception, la normalisation, l'implémentation et l'interrogation d'une base de données relationnelle.
 
 ---
 
-## 🗂️ Structure du dépôt
+## Structure du dépôt
 
 ```
 library-management-cs27/
@@ -23,7 +23,7 @@ library-management-cs27/
 
 ---
 
-## 🏗️ Schéma de la base de données
+## Schéma de la base de données
 
 ### Entités et attributs
 
@@ -46,7 +46,7 @@ library-management-cs27/
 
 ---
 
-## ⚙️ Installation & Utilisation
+## Installation & Utilisation
 
 ### Prérequis
 - MySQL 8.0 ou supérieur
@@ -70,7 +70,7 @@ mysql -u root -p < library_db.sql
 
 ---
 
-## 📊 Contenu de la base de données
+## Contenu de la base de données
 
 | Table        | Nombre de lignes |
 |-------------|-----------------|
@@ -96,7 +96,7 @@ mysql -u root -p < library_db.sql
 
 ---
 
-## 🔒 Intégrité référentielle
+## Intégrité référentielle
 
 Toutes les clés étrangères utilisent :
 - `ON DELETE RESTRICT` — empêche la suppression d'un enregistrement parent si des enfants existent
@@ -104,7 +104,7 @@ Toutes les clés étrangères utilisent :
 
 ---
 
-## 📐 Normalisation
+## Normalisation
 
 Le fichier SQL inclut (en commentaires) la démonstration complète :
 1. **Table brute (UNF)** — données non normalisées
@@ -114,20 +114,20 @@ Le fichier SQL inclut (en commentaires) la démonstration complète :
 
 ---
 
-## 👥 Membres du groupe
+## Membres du groupe
 
 | Nom | Prénom | Rôle |
 |-----|--------|------|
-|     |        | Chef de groupe |
+|  S   |        | Chef de groupe |
 |     |        | Conception BDD |
 |     |        | Implémentation SQL |
 |     |        | Présentation |
 
-> ⚠️ *Complétez ce tableau avec les vrais noms des membres du groupe*
+> *Complétez ce tableau avec les vrais noms des membres du groupe*
 
 ---
 
-## 🎓 Intégrité académique
+## Intégrité académique
 
 Tout le code SQL a été écrit par le groupe. L'IA a été utilisée uniquement comme outil d'apprentissage — chaque membre est capable d'expliquer chaque ligne lors de la vidéo de présentation.
 
