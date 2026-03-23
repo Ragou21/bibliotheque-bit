@@ -92,5 +92,7 @@ sudo mysql < library_db.sql
 | KOANDA    | Cheikib    |      |
 
 ---
+Video Youtube walkthrought
+https://youtu.be/CLCn74gKR6s?si=WT_kf_X4qDjRHwxf
 
 *CS27 - Burkina Institute of Technology*
